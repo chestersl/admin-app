@@ -56,9 +56,9 @@ const props = defineProps({
                                     :href="route('company.destroy', company.id)">
                                     {{ $t('dashboard.buttons.delete') }}
                                 </Link>
-                                <a href="#">
-                                    {{ $t('dashboard.buttons.edit') }}
-                                </a>
+<!--                                <a href="#">-->
+<!--                                    {{ $t('dashboard.buttons.edit') }}-->
+<!--                                </a>-->
                             </div>
                         </li>
                     </ul>
