@@ -39,7 +39,7 @@ return [
     |
     */
 
-    'debug' => (bool) env('APP_DEBUG', false),
+    'debug' => (bool)env('APP_DEBUG', false),
 
     /*
     |--------------------------------------------------------------------------
@@ -81,6 +81,11 @@ return [
     'locale' => env('APP_LOCALE', 'en'),
 
     'fallback_locale' => env('APP_FALLBACK_LOCALE', 'en'),
+
+    'available_locales' => [
+        'English' => 'en',
+        'Ukrainian' => 'ua',
+    ],
 
     'faker_locale' => env('APP_FAKER_LOCALE', 'en_US'),
 
