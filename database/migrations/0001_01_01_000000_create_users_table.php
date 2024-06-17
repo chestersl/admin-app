@@ -37,12 +37,6 @@ return new class extends Migration {
             $table->longText('payload');
             $table->integer('last_activity')->index();
         });
-
-        // call user seeder
-        Artisan::call('db:seed', [
-            '--class' => 'UserSeeder',
-            '--force' => true
-        ]);
     }
 
     /**
